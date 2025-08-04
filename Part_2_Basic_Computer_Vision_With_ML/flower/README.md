@@ -241,6 +241,16 @@ plt.show()
 # OVERFITTING
 # -----------------------------------------------------------------------------------
 
+# Overfitting in Keras, as with any machine learning framework, occurs when a model learns the training data 
+# too well, including its noise and idiosyncrasies, leading to poor generalization on unseen data. 
+# This is typically observed when the model achieves high accuracy or low loss on the training set but 
+# significantly lower performance on the validation or test set.
+# Identifying Overfitting in Keras:
+# Monitoring Training and Validation Metrics: During training, observe the training loss/accuracy and 
+# validation loss/accuracy. If the training accuracy continues to improve while the validation accuracy 
+# plateaus or decreases, and/or the training loss continues to decrease while the validation loss increases, 
+# it indicates overfitting.
+
 # In the plots above, the training accuracy is increasing linearly over time, 
 # whereas validation accuracy stalls around 60% in the training process. 
 # Also, the difference in accuracy between training and validation accuracy is noticeable—a sign of overfitting.
