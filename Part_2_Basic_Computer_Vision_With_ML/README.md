@@ -38,10 +38,8 @@ import numpy
 ```
 # Load available fashion MNIST dataset from keras
 fashion_mnist = keras.datasets.fashion_mnist
-```
 
 # The label is the number indicating the class of that type of clothing:
-```
 # Class names and its corresponding number
 # It uses number because:
 # 1. Computer deals better with numbers
